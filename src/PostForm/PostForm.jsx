@@ -8,7 +8,6 @@ const PostForm = () => {
   const [postCaption, setPostCaption] = useState("");
   const dispatch = useDispatch();
 
-  const isLoading = useSelector((state) => state.post.loading);
 
   const addPostHandler = () => {
     dispatch(addPost({ title: postTitle, caption: postCaption }));
@@ -46,7 +45,8 @@ const PostForm = () => {
         sx={{ marginTop: "1rem", marginBottom: "1rem" }}
         onClick={() => addPostHandler()}
       >
-        {isLoading ? "Loading..." : "Share"}
+      Share
+        {/* {isLoading ? "Loading..." : "Share"} */}
       </Button>
     </div>
   );

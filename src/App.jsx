@@ -4,6 +4,7 @@ import PostForm from './PostForm/PostForm'
 import PostList from './PostList/PostList'
 
 const App = () => {
+
   return (
     <Container fixed>
         <PostForm />

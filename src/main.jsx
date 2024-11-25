@@ -8,6 +8,11 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
+// store.subscribe(() => {
+//   const state = store.getState();
+//   localStorage.setItem("myPosts",state.post.posts);
+// });
+
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
     <App />
