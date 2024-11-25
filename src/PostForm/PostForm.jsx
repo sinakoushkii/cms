@@ -7,7 +7,7 @@ const PostForm = () => {
   const [postTitle, setPostTitle] = useState("");
   const [postCaption, setPostCaption] = useState("");
   const dispatch = useDispatch();
-  //   const AllPosts=useSelector(state=>state.post.posts)
+
   const isLoading = useSelector((state) => state.post.loading);
 
   const addPostHandler = () => {

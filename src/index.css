@@ -19,3 +19,16 @@
 .submitFormBtn {
   align-self: baseline;
 }
+
+.cardContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card{
+  width: 400px;
+  border: 2px solid rgb(0, 106, 255);
+  padding: 1rem;
+  border-radius: 10px;
+}
